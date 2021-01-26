@@ -1,4 +1,5 @@
-travel_log = {
+travel_log = [
+  {
   "Africa": 
   {
     "cities_visited": ["Kinshasa", "Abidjan", "Dakar", "Johannesbourg", "Douala", "Zanzibar"], 
@@ -23,9 +24,11 @@ travel_log = {
     "cities_visited": ["Wellington", "Sidney","Canberra"],
     "citiesTo_visit": ["Adelaide", "Suva", "Melbourne", "Papeete"],
     "time": 7
+  },
+
   }
 
-}
+]
 
 print(travel_log)
 
